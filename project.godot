@@ -1,0 +1,41 @@
+; Engine configuration file.
+; Open this folder with Godot 4.3 or newer (standard build, not .NET).
+
+config_version=5
+
+[application]
+
+config/name="Slingshot Spin"
+config/description="Pull back the slingshot, launch the ball, and watch it rack up points."
+run/main_scene="res://scenes/main.tscn"
+config/features=PackedStringArray("4.3")
+
+[autoload]
+
+SaveData="*res://scripts/save_data.gd"
+Sfx="*res://scripts/sfx.gd"
+
+[display]
+
+window/size/viewport_width=720
+window/size/viewport_height=1280
+window/size/window_width_override=540
+window/size/window_height_override=960
+window/stretch/mode="canvas_items"
+window/stretch/aspect="keep"
+window/handheld/orientation=1
+
+[input_devices]
+
+pointing/emulate_mouse_from_touch=true
+
+[physics]
+
+2d/default_gravity=0.0
+common/physics_ticks_per_second=120
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.06, 0.07, 0.13, 1)
