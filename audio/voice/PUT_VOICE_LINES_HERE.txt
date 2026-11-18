@@ -1,0 +1,3 @@
+Drop optional voice recordings here, named like launch_1.ogg, motivate_1.wav, smash_2.mp3 ...
+Keys: launch, motivate, smash, powerup, combo, milestone, jackpot, best, end (up to 9 files each).
+A random one plays for each key. See README.md for when each one plays.
